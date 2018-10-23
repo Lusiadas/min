@@ -12,7 +12,7 @@
 
 ## Description
 
-A minimal prompt to be used with the [powerline double cyan](https://gitlab.com/hthoreau/min_statusbar) statusbar for [tmux](https://tmux.github.io).
+A minimal prompt to be used with the "[powerline double cyan](https://gitlab.com/hthoreau/min_statusbar)" statusbar for [tmux](https://tmux.github.io).
 
 ## Install
 
