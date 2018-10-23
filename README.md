@@ -1,43 +1,33 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
+# min
 
-#### min
-> A theme for [Oh My Fish][omf-link].
+> *A theme for [Oh My Fish][https://www.github.com/oh-my-fish/oh-my-fish].*
 
-[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
-[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
+[![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?longCache=true&style=flat-square)](/LICENSE)
+[![Fish Shell Version](https://img.shields.io/badge/fish-v2.7.1-blue.svg?style=flat-square)](https://fishshell.com)
+[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-blue.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
 <br/>
 
+![screenshot](screenshot.png)
+
+## Description
+
+A minimal prompt to be used with the [min statusbar](https://gitlab.com/hthoreau/min_statusbar) for [tmux](https://tmux.github.io).
 
 ## Install
 
+Either with omf
+
 ```fish
-$ omf install min
+omf install nav
 ```
 
+or [fisherman](https://github.com/fisherman/fisherman)
 
-## Features
+```fish
+fisher gitlab.com/lusiadas/nav
+```
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
+---
 
-
-## Screenshot
-
-<p align="center">
-<img src="{{SCREENSHOT_URL}}">
-</p>
-
-
-# License
-
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
-
-
-[mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/theme-min/graphs/contributors
-[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
-
-[license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
+Ⓐ Made in Anarchy. No wage slaves were economically coerced into the making of this work.
