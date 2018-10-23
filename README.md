@@ -30,9 +30,10 @@ fisher gitlab.com/lusiadas/nav
 
 ## Configuration
 
-In the screenshot above, one can see I've modified the contents displayed in the statusbar from those of the default theme.
+In the screenshot above, you can see that I've modified the contents displayed in the statusbar from those of the theme.
 
 To do so, I've added the following lines to the bottom of my `~/.tmux.conf` file:
+
 ```
 # Tweak theme
 set -g status-left "#[fg=colour233,bg=colour39] #S #[fg=colour39,bg=colour240]#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour233]"
@@ -40,6 +41,12 @@ set -g status-right "#[fg=colour240,bg=colour233]#[fg=colour39,bg=colour240] 
 set -g window-status-format "  #I:#W  "
 set -g window-status-current-format "#[fg=colour233,bg=black]#[fg=colour81] #I:#W #[fg=colour233,bg=black]"
 
+```
+
+To modify yours as well, use the following command:
+
+```
+grep -A 4 '# Tweak theme' ~/.local/share/omf/theme/min/README.md >> ~/.tmux.conf
 ```
 
 ---
