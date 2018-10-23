@@ -1,6 +1,6 @@
 # min
 
-> *A theme for [Oh My Fish][https://www.github.com/oh-my-fish/oh-my-fish].*
+> *A theme for [Oh My Fish](https://www.github.com/oh-my-fish/oh-my-fish)
 
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?longCache=true&style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.7.1-blue.svg?style=flat-square)](https://fishshell.com)
@@ -19,13 +19,13 @@ A minimal prompt to be used with the "[powerline double cyan](https://gitlab.com
 Either with omf
 
 ```fish
-omf install nav
+omf install min
 ```
 
 or [fisherman](https://github.com/fisherman/fisherman)
 
 ```fish
-fisher gitlab.com/lusiadas/nav
+fisher gitlab.com/lusiadas/min
 ```
 
 ## Configuration
