@@ -17,6 +17,6 @@ function fish_right_prompt
   set -g __fish_git_prompt_show_informative_status true
 
   # Print prompt
+  __fish_git_prompt " [%s] "
   set_color --dim white; date "+%H:%M:%S"; set_color normal
-  __fish_git_prompt " [%s]"
 end
