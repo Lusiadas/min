@@ -7,10 +7,11 @@ function fish_greeting
     string match -qr 'min\.tmuxtheme$' $theme
     and return 0
     omf cd min
-    command realpath min.tmuxtheme | read mintheme
+    command realpath min.tmuxtheme | read min_theme
     test "$theme"
-    and sed -i "s/$theme/$mintheme/g" $HOME/.tmux.conf
-    or echo $mintheme >> $HOME/.tmux.conf
+    and sed -i "s/$theme/$min_theme/g" $HOME/.tmux.conf
+    or echo $min_theme >> $HOME/.tmux.conf
     tmux source-file $HOME/.tmux.conf
+    prevd
   end
 end

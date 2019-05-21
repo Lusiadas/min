@@ -12,20 +12,12 @@
 
 ## Description
 
-A minimal prompt for the fish shell to be used with [tmux](https://tmux.github.io).
+A minimal prompt for the fish shell, to be used with [tmux](https://tmux.github.io).
 
 ## Install
 
-Either with omf
-
 ```fish
 omf install min
-```
-
-or [fisherman](https://github.com/fisherman/fisherman)
-
-```fish
-fisher gitlab.com/lusiadas/min
 ```
 
 ---
