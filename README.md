@@ -17,6 +17,7 @@ A minimal prompt for the fish shell, to be used with [tmux](https://tmux.github.
 ## Install
 
 ```fish
+omf repositories add https://gitlab.com/argonautica/argonautica 
 omf install min
 ```
 
