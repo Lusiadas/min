@@ -20,7 +20,3 @@ A minimal prompt for the fish shell, to be used with [tmux](https://tmux.github.
 omf repositories add https://gitlab.com/argonautica/argonautica 
 omf install min
 ```
-
----
-
-Ⓐ Made in Anarchy. No wage slaves were economically coerced into the making of this work.
